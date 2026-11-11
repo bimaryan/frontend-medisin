@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medisin-blue: #0b63d8;
+  --color-medisin-blue-dark: #0a55b8;
+  --color-medisin-green: #2ec416;
+  --color-medisin-green-dark: #27a913;
+  --color-medisin-gray: #d9d9d9;
+}
+
+body {
+  @apply m-0 font-sans text-neutral-900 antialiased;
+}
